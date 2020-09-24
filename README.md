@@ -9,4 +9,4 @@
 Project is: _in progress_
 
 ## Contact
-Created by Insdead (https://vk.com/iwillneversucceed) - feel free to contact me!
+Created by Yernar Mukayev () - feel free to contact me!
