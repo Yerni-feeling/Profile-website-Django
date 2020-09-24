@@ -25,6 +25,7 @@ SECRET_KEY = 'u5nlqr&zz_0g(%(kk&4rkr-y9nx+)6_mk2+-34g3_zd^%p^+*!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+
 ALLOWED_HOSTS = ["yernar-mukayev.herokuapp.com", '127.0.0.1']
 
 
