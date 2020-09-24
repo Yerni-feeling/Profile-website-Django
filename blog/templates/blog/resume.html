@@ -1,0 +1,130 @@
+{% extends "blog/base.html" %}
+{% load static %}
+{% block content %}
+    <main class="intro-section">
+        <div class="container">
+            <div class="grid">
+            <div class="column-xs-12">
+                <ul class="slider">
+                <li class="slider-item active">
+                    <div class="grid vertical">
+                    <div class="column-xs-12 column-md-2 hide-mobile">
+                        <div class="intro">
+                        <a href="#">
+                            <h1 class="title" style="width: auto"><span class="underline">Skills</span></h1>
+                        </a>
+                        </div>
+                    </div>
+                    <div class="column-xs-12 column-md-10">
+                        <div class="image-holder">
+                        <a href="#"><img style="position: relative;" src="{% static 'assets/images/skill-trees.png' %}" alt=""></a>
+                        </div>
+                        <div class="grid">
+                        <div class="column-xs-12 column-md-9">
+                            <div class="intro show-mobile">
+                            <a href="#">
+                                <h1 class="title"><span class="underline">Skills</span></h1>
+                            </a>
+                            </div>
+                            <p class="description">Move to the next to see using arrows below (see detailed in a CV) </p>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </li>
+                <li class="slider-item">
+                    <div class="grid vertical">
+                    <div class="column-xs-12 column-md-2 hide-mobile">
+                        <div class="intro">
+                        <a href="#">
+                            <h1 class="title" style="width: auto"><span class="underline">Front-end technologies</span></h1>
+                        </a>
+                        </div>
+                    </div>
+                    <div class="column-xs-12 column-md-10">
+                        <div class="image-holder">
+                            <a href="#"><img style="position: relative;" src="{% static 'assets/images/front.jpg' %}" alt="#"></a>
+                        </div>
+                        <div class="grid">
+                        <div class="column-xs-12 column-md-9">
+                            <div class="intro show-mobile">
+                            <a href="#">
+                                <h1 class="title"><span class="underline">Front-end technologies</span></h1>
+                            </a>
+                            </div>
+                            <p class="description"> Can implement styling for the web page with CSS, REACT(framework), and Bootstrap</p>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </li>
+                <li class="slider-item">
+                    <div class="grid vertical">
+                    <div class="column-xs-12 column-md-2 hide-mobile">
+                        <div class="intro">
+                        <a href="#">
+                            <h1 class="title" style="width: auto"><span class="underline">Back-end technologies</span></h1>
+                        </a>
+                        </div>
+                    </div>
+                    <div class="column-xs-12 column-md-10">
+                        <div class="image-holder">
+                            <a href="#"><img style="position: relative;" src="{% static 'assets/images/django.png' %}" alt="https://store.steampowered.com/app/1209140/Peace_Data/"></a>
+                        </div>
+                        <div class="grid">
+                        <div class="column-xs-12 column-md-9">
+                            <div class="intro show-mobile">
+                            <a href="#">
+                                <h1 class="title"><span class="underline">Back-end technologies</span></h1>
+                            </a>
+                            </div>
+                            <p class="description">Proficient to code  websites with Django framework(Python) and Django Rest Framework with calling 3rd party APIs with full wide functionality( user authentication, API calls, execute AJAX  etc.) using postgresql and mysql databases</p>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </li>
+                <li class="slider-item">
+                    <div class="grid vertical">
+                    <div class="column-xs-12 column-md-2 hide-mobile">
+                        <div class="intro">
+                        <a href="#">
+                            <h1 class="title" style="width: auto"><span class="underline">Other tools</span></h1>
+                        </a>
+                        </div>
+                    </div>
+                    <div class="column-xs-12 column-md-10">
+                        <div class="image-holder">
+                            <a href="#"><img style="position: relative;" src="{% static 'assets/images/skills2.png' %}" alt=""></a>
+                        </div>
+                        <div class="grid">
+                        <div class="column-xs-12 column-md-9">
+                            <div class="intro show-mobile">
+                            <a href="#">
+                                <h1 class="title"><span class="underline">Other tools/languages</span></h1>
+                            </a>
+                            </div>
+                            <p class="description">MS Office; Photoshop; Wordpress; Unreal engine; </p>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </li>
+                </ul>
+            <div class="grid">
+                <div class="column-xs-12">
+                <div class="controls">
+                    <button class="previous">
+                        <i class="ion-ios-arrow-thin-left"></i>
+                    </a>
+                    <button class="next">
+                        <i class="ion-ios-arrow-thin-right"></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </main>
+{% endblock content %}
+

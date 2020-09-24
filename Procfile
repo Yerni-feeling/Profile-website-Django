@@ -1,0 +1,1 @@
+web: gunicorn iscompsci.wsgi --log-file -
